@@ -7,7 +7,7 @@ body{
     height: 100%;
     font-family: 'Russo One', sans-serif;
     font-size: 20px;
-    background-image: url(/img/96244.png);
+    background-image: url(https://iranvplay.com/wp-content/uploads/2020/05/Cyberpunk-2077-images-FullHD-4k-1.png);
 }
 img{
 }
@@ -298,6 +298,7 @@ transform: rotate(-30deg) skew(0,0) translate(-30px,-20px);
 
 .footer{
     background-color: black;
+    
 }
 .footer__content{
     justify-content: center;
@@ -305,9 +306,10 @@ transform: rotate(-30deg) skew(0,0) translate(-30px,-20px);
     margin: 0px auto;
     padding:25px;
     display: flex;
+    flex-wrap: wrap;
 }
 .about{
-    flex:0 0 25%;
+    flex:1 1 25%;
     text-align:left;    
     color:rgb(217, 255, 0);
     font-size: 25px;
@@ -413,4 +415,91 @@ text-align: center;
         margin-top: -45px;
         padding:0px 0 10px 0;
     }
+}
+
+
+
+
+.content {
+    
+    // .content__gallery
+
+    &__gallery {
+        margin:-80px 0 80px 0px;
+    }
+}
+.container {
+
+}
+.gallery {
+ 
+    // .gallery__columns
+
+    &__columns {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    // .gallery__photo
+
+    &__photo {
+        padding:15px;
+      min-width: 300px;
+      flex-basis: 33.333%;
+flex-grow: 1;
+flex-shrink: 0;
+img:active{
+    max-width: 100%;
+    position: absolute;
+    z-index: 30;
+    top:100;
+    left:0;
+    margin:0px auto;
+}
+    }
+}
+
+.content {
+
+    // .content__samurai
+
+    &__samurai {
+       
+    }
+}
+.samurai {
+
+    // .samurai__container
+
+    &__container {
+        max-width: 1200px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        padding-right: 5px;
+    }
+
+    // .samurai__content
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden;
+        max-width: 25.5%;
+        margin-bottom: 100px;
+        
+    }
+
+    // .samurai__photo
+
+    &__photo {
+    
+    }
+}
+iframe{
+    margin-left: 10px;
 }

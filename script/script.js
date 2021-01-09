@@ -4,3 +4,10 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 });
+$(".gallery__photo").on("click", function(e){
+
+    e.preventDefault();
+    
+    $(this).css({"height":"150%", "width":"150%"});
+    
+    })
